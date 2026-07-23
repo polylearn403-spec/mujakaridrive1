@@ -9,3 +9,10 @@ node_modules/
 package.json
 package-lock.json
 test_api.js
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+.env*
+!.env.example
